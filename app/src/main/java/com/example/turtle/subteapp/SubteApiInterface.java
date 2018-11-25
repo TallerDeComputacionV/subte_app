@@ -7,6 +7,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface SubteApiInterface {
-    @GET("/")
+    @GET("lineas")
     public Call<List<Linea>> getLineas();
 }

@@ -16,7 +16,7 @@ public class SubteApiClient {
 
     public static SubteApiInterface getClient(){
         return new Retrofit.Builder()
-                .baseUrl("https://api.myjson.com/bins/re8fi/")
+                .baseUrl("https://my-json-server.typicode.com/TallerDeComputacionV/subte_app/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(getHttpClient())
                 .build()
