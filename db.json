@@ -1,0 +1,133 @@
+{
+  "lineas":[
+    {
+      "letra":"A",
+      "estado":"Normal",
+      "detalle":null,
+      "estaciones":[
+        "Plaza de mayo",
+        "Perú",
+        "Piedras",
+        "Lima",
+        "Saenz Peña",
+        "Congreso",
+        "Pasco",
+        "Alberti",
+        "Plaza Miserere",
+        "Loria",
+        "Castro Barros",
+        "Río de Janeiro",
+        "Acoyte",
+        "Primera Junta",
+        "Puán",
+        "Carabobo",
+        "San José de Flores",
+        "San Pedrito"
+      ]
+    },
+    {
+      "letra":"B",
+      "estado":"Con Demora",
+      "detalle":"Problemas técnicos",
+      "estaciones":[
+        "Alem",
+        "Florida",
+        "Carlos Pellegrini",
+        "Uruguay",
+        "Callao",
+        "Pasteur",
+        "Pueyrredón",
+        "Carlos Gardel",
+        "Medarano",
+        "Angel Gallardo",
+        "Malabia",
+        "Dorrego",
+        "Federico Lacroze",
+        "Tronador - Villa Ortuzar",
+        "De los Incas - Parque Chas",
+        "Echeverría",
+        "Juan Manuel de Rosas"
+      ]
+    },
+    {
+      "letra":"C",
+      "estado":"Normal",
+      "detalle":null,
+      "estaciones":[
+        "Retiro",
+        "San Martín",
+        "Lavalle",
+        "Diagonal Norte",
+        "Av. de Mayo",
+        "Moreno",
+        "Independencia",
+        "San Juan",
+        "Constitución"
+      ]
+    },
+    {
+      "letra":"D",
+      "estado":"Interrumpido",
+      "detalle":"Medida de fuerza",
+      "estaciones":[
+        "Catedral",
+        "9 de Julio",
+        "Tribunales",
+        "Callao",
+        "Facultad de Medicina",
+        "Pueyrredón",
+        "Agüero",
+        "Bulnes",
+        "Scalabrini Ortiz",
+        "Plaza Italia",
+        "Palermo",
+        "Ministro Carranza",
+        "Olleros",
+        "José Hernández",
+        "Juramento",
+        "Congreso de Tucumán"
+      ]
+    },
+    {
+      "letra":"E",
+      "estado":"Normal",
+      "detalle":null,
+      "estaciones":[
+        "Bolivar",
+        "Belgrano",
+        "Independencia",
+        "San José",
+        "Entre Ríos",
+        "Pichincha",
+        "Jujuy",
+        "General Urquiza",
+        "Boedo",
+        "La Plata",
+        "José María Moreno",
+        "Emilio Mitre",
+        "Medalla Milagrosa",
+        "Varela",
+        "Plaza de los Virreyes"
+      ]
+    },
+    {
+      "letra":"H",
+      "estado":"Normal",
+      "detalle":null,
+      "estaciones":[
+        "Facultad de Derecho",
+        "Las Heras",
+        "Santa Fe",
+        "Córdoba",
+        "Corrientes",
+        "Once",
+        "Venezuela",
+        "Humberto Primo",
+        "Inclán",
+        "Caseros",
+        "Parque Patricios",
+        "Hospitales"
+      ]
+    }
+  ]
+}
