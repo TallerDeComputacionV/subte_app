@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondologin"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginBottom="50dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User"
+            android:textColor="#343434"
+            android:textColorHint="#343434"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:id="@+id/usernameET"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#343434"
+            android:textColorHint="#343434"
+            android:hint="Password"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:id="@+id/passwordET"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:layout_marginTop="30dp"
+            android:id="@+id/loginbtn"/>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imagenLinea"/>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:maxLines="1"
+                android:text="LINEA A"
+                android:id="@+id/letra"/>
+
+            <TextView
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:maxLines="1"
+                android:text="ALGUN ESTADO"
+                android:textColor="#016c0c"
+                android:id="@+id/estado"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:maxLines="1"
+                android:text="ALGUN DETALLE"
+                android:textColor="#b71c1c"
+                android:id="@+id/detalle"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
